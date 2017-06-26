@@ -1,0 +1,72 @@
+.Page{
+  /*height: inherit;*/
+  padding-top:.10%;
+  /*top: 55px;*/
+
+  /*To support older browsers*/
+  height: 100%;
+  width: 100%;
+
+  /* Set the height to match that of the viewport. */
+  height: 100vh;
+
+  /* Set the width to match that of the viewport. */
+  width: 100vw;
+  background-size: 100%;
+  background-color: #57bf57;
+  text-align: center;
+}
+
+.Header {
+  margin: 2%;
+}
+
+.Name{
+  padding: .25%;
+  text-align: center;
+  border-style: solid;
+  border-color: 'black';
+  font-size:60px;
+  color: white;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+h1{
+  padding: 1%;
+  text-align: center;
+  border-style: solid;
+  border-color: 'black';
+  font-size:45px;
+  color: white;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.Name:hover{
+  transition: border-color linear 0.2s;
+  border-color: #FFFC00;
+}
+
+.button{
+
+}
+.button button{
+  border-width: thick;
+  margin-left: 10;
+  align-self: center;
+  width: 30%;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #57bf57;
+
+}
+
+.App-intro {
+  font-size: large;
+}

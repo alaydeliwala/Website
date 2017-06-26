@@ -1,0 +1,21 @@
+.AboutMe{
+  color: white;
+  line-height: 22px;
+}
+
+.Me{
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h4{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 30px;
+}
+.Favorites{
+  line-height: 5px;
+}
+a{
+  text-decoration: none;
+}
