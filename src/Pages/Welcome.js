@@ -8,7 +8,7 @@ class Welcome extends Component {
 
       <div className = "WelcomePage">
         <p>
-          A NC State Sophmore with a knack for programming
+          A NC State Sophomore with a knack for programming
         </p>
         <div className = "Nav">
           - Use the buttons below to navigate -

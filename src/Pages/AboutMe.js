@@ -9,8 +9,8 @@ class Welcome extends Component {
       <div className = "AboutMe">
         <div className = "Me">
           <p>
-            Sophmore in Computer science, attending NC State University.
-            Enjoys lisetning to music, munching on candy, trying new things,
+            Sophomore in Computer science, attending NC State University.
+            Enjoys listening to music, munching on candy, trying new things,
             and going on adventures.
           </p>
         </div>
