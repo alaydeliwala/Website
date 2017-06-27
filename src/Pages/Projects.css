@@ -1,0 +1,23 @@
+.Projects {
+  color: white;
+}
+
+.Proj {
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 25px;
+}
+
+.Projects a{
+  text-decoration:none;
+  color: white;
+}
+.Expand a{
+  text-decoration:underline;
+  color: white;
+}
+.Proj h3{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 35px;
+}
