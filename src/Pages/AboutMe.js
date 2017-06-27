@@ -30,7 +30,7 @@ class Welcome extends Component {
           </a>
         </div>
         <h4>Favorite Songs</h4>
-        <iframe src="//tools.applemusic.com/embed/v1/playlist/pl.7a960d4d67144df0ae54d7017840cdb3?country=us" height="300px" width="50%" frameborder="0"></iframe>
+        <iframe src="//tools.applemusic.com/embed/v1/playlist/pl.7a960d4d67144df0ae54d7017840cdb3?country=us"></iframe>
       </div>
     );
   }

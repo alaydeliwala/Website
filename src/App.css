@@ -7,14 +7,11 @@
   height: 100%;
   width: 100%;
 
-  /* Set the height to match that of the viewport. */
-  height: 105vh;
 
-  /* Set the width to match that of the viewport. */
-  width: 100vw;
   background-size: 100%;
   background-color: #4F99E8;
   text-align: center;
+  padding-bottom: 35%
 }
 
 .Header {
@@ -46,8 +43,9 @@ h1{
   border-color: #FFFC00;
 }
 
-.button{
-
+.cool{
+  margin-bottom: 100%;
+  background-color: #57bf57;
 }
 .button button{
   border-width: thick;
@@ -69,4 +67,24 @@ h1{
 
 .App-intro {
   font-size: large;
+}
+@media screen and (max-width: 750px) {
+  .button button{
+    border-width: thick;
+    margin-left: 10;
+    align-self: center;
+    width: 75%;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #57bf57;
+
+  }
+
 }

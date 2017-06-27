@@ -21,3 +21,12 @@
   font-family: 'Patrick Hand SC', cursive;
   font-size: 35px;
 }
+
+@media screen and (max-width: 750px) {
+  .Proj {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 25px;
+  }
+}

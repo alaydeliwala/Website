@@ -117,6 +117,9 @@ class App extends Component {
                   <h1> Contact Me</h1>
               </div>
             </button>
+            <div className = "cool">
+
+            </div>
         </div>
       </div>
     );
