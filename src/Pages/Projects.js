@@ -15,12 +15,12 @@ class Projects extends Component {
       </a>
         <p>
         RPS is a mobile one player version of the classic Rock Paper Scissors.
-        Take your chance against a computer and see who is greater once and for all.
+
         </p>
         <div className = "Expand">
         <a href = "https://github.com/alaydeliwala/RPS" target="_blank">
         <p>
-          Read More...
+          Click here to Read More...
         </p>
       </a>
         </div>

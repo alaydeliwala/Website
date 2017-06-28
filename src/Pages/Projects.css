@@ -14,12 +14,17 @@
   color: white;
 }
 .Expand a{
-  text-decoration:underline;
   color: white;
 }
 .Proj h3{
   font-family: 'Patrick Hand SC', cursive;
   font-size: 35px;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+.Expand p:hover{
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 750px) {

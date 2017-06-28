@@ -35,6 +35,26 @@ class App extends Component {
     }
   }
 
+  changeColor(){
+    this.setState({count: this.state.count + 1});
+    this.setState({page: "Welcome"});
+    if(this.state.count % 5 === 0){
+      this.setState({backColor: '#E25D4C'})
+    }
+    if(this.state.count % 5 === 1){
+      this.setState({backColor: '#ECBC49'})
+    }
+    if(this.state.count % 5 === 2){
+      this.setState({backColor: '#94D55F'})
+    }
+    if(this.state.count % 5 === 3){
+      this.setState({backColor: '#62ECDE'})
+    }
+    if(this.state.count % 5 === 4){
+      this.setState({backColor: '#7267E2'})
+    }
+  }
+
   changeColor1(){
     this.setState({count: this.state.count + 1});
     this.setState({page: "AboutMe"});
@@ -97,9 +117,11 @@ class App extends Component {
 
     return (
       <div className = "Page" style = {{backgroundColor: this.state.backColor}}>
+          <button className="button" style = {{backgroundColor: this.state.backColor}} onClick={this.changeColor.bind(this)}  >
         <div className = "Header">
           <div className = "Name"> Alay Deliwala </div>
         </div>
+        </button>
           {this.renderPage()}
         <div className="button">
             <button className="button" style = {{backgroundColor: this.state.backColor}} onClick={this.changeColor1.bind(this)}>
@@ -117,9 +139,6 @@ class App extends Component {
                   <h1> Contact Me</h1>
               </div>
             </button>
-            <div className = "cool">
-
-            </div>
         </div>
       </div>
     );
